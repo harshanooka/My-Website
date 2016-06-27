@@ -1,0 +1,15 @@
+.header-top {
+    background-color: rgba(38, 38, 38, 0.85);
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 37px;
+    padding: 4px 0px;
+
+}
+
+li{
+    display: inline-block;
+    padding-right: 15px;
+    color: white;
+}
