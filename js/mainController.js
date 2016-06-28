@@ -3,6 +3,7 @@
   angular.module('angularApp').controller('mainController',
       function($scope, $location) {
 
+      
       });
 
 })();
