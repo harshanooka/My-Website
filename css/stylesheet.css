@@ -24,7 +24,6 @@ body{
   .navbar-default {
     border: none !important;
     box-shadow: none !important;
-    z-index: 10;
     min-width: 500px;
   }
   .navbar-default li a {
@@ -131,3 +130,4 @@ body{
 #Slide5 {
   background: url("../images/media/image8.jpeg") top no-repeat;
 }
+
