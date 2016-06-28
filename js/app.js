@@ -27,7 +27,11 @@
             }).
             when('/scholarship', {
                 templateUrl: 'html/scholarship.html'
-            }).otherwise({redirectTo:'/'});
+            }).
+            when('/team',{
+                templateUrl: 'html/team.html'
+            })
+                .otherwise({redirectTo:'/'});
 
         }]);
 

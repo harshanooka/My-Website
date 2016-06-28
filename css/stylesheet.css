@@ -138,3 +138,52 @@ footer {
   font-size: 30px;
   font-family: 'Droid Serif', Georgia, serif;
 }
+
+.iconDetails{
+    float:left;
+    height: 150px;
+    width: 150px;
+    margin-left: 2%;
+
+}
+
+.img-board{
+    height: 155px;
+    width:  155px;
+}
+
+.mem-brd{
+    border: solid orange 1px;
+    overflow: auto;
+    margin-top: 2%;
+
+}
+
+.det-brd{
+    margin-left: 180px;
+}
+
+.main-brd{
+    float: left;
+    margin: 6%;
+
+}
+
+.paragraph{
+    font-size: 14px;
+    width: 100%;
+
+}
+
+.mem-details{
+    margin-right: 1%;
+}
+
+.mem-content{
+    margin: 1%;
+}
+
+.heading{
+    margin-bottom: 4%;
+}
+
