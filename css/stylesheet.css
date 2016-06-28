@@ -98,20 +98,6 @@ footer {
 .hero-content .btn-custom {
   width: 320px;
 }
-@media only screen and (max-width: 768px) {
-  .hero-content h1, .story h1 {
-    font-size: 30px;
-  }
-  .hero-content p, .thumbnail-content p {
-    font-size: 16px !important;
-  }
-  .hero-content .btn-custom {
-    width: 220px;
-  }
-  .navbar-default .navbar-brand {
-    font-size: 15px;
-  }
-}
 
 /*Story Section*/
 
@@ -138,6 +124,7 @@ footer {
   font-size: 30px;
   font-family: 'Droid Serif', Georgia, serif;
 }
+
 
 .iconDetails{
     float:left;
@@ -187,3 +174,17 @@ footer {
     margin-bottom: 4%;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero-content h1, .story h1 {
+    font-size: 30px;
+  }
+  .hero-content p, .thumbnail-content p {
+    font-size: 16px !important;
+  }
+  .hero-content .btn-custom {
+    width: 220px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 15px;
+  }
+}
