@@ -1,133 +1,140 @@
-body{
+body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-  li {
-    display: inline-block;
-    padding-right: 5px;
-    color: white;
-  }
-  .header-bottom {
-    background-color: transparent;
-  }
-  footer {
-    background-color: rgba(38, 38, 38, 0.85);
-    font-family: 'Open Sans';
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 37px;
-    padding: 4px 0px;
-  }
-  #header .navbar-default {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 3px rgba(236, 236, 236, 1) !important;
-  }
-  .navbar-default {
-    border: none !important;
-    box-shadow: none !important;
-    min-width: 500px;
-  }
-  .navbar-default li a {
-    padding: 10px 15px;
-    color: #262626 !important;
-    font-family: 'Open Sans';
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 5px;
-  }
-  .navbar-default li a:hover {
-    border-bottom: #FFA400 3px solid;
-  }
-  .navbar-default .navbar-brand {
-    color: #2A2A72 !important;
-    font-size: 24px;
-  }
-  .btn-custom{
-    padding: 10px 36px;
-    background-color: #ff5722;
-    color: #ffffff;
-    font-size: 18px;
-    height: 42px;
-    margin-top: 5px;
-    border-radius: 2px;
-    border-radius: 2px;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    line-height: 20px;
-  }
-  .btn-custom:hover{
-    color: #ffffff;
-  }
-  .btn-donate {
-    width: 140px;
-  }
-  .hero {
-    background-image: url('../images/media/hero.jpg');
-    width: 100%;
-    min-height: 666px;
-    background-size: cover;
-    display: block;
-    background-position: center;
-    margin-top: 20px;
-  }
-  .dark-well{
-    background-color: rgba(0,0,0,0.6);
-    border-radius: 5px;
-    padding-bottom: 10px;
-  }
-  .hero-content {
-    position: absolute;
-    top: 40%;
-    margin-left: 30px;
-    margin-right: 75px;
-    color: white;
-    text-align: center;
-  }
-  .hero-content h1{
-    font-size: 55px;
-  }
-  .hero-content p{
+li {
+  display: inline-block;
+  padding-right: 5px;
+  color: white;
+}
+.header-bottom {
+  background-color: transparent;
+}
+footer {
+  background-color: rgba(38, 38, 38, 0.85);
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 37px;
+  padding: 4px 0px;
+}
+#header .navbar-default {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px rgba(236, 236, 236, 1) !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+  border: none !important;
+  box-shadow: none !important;
+}
+.navbar-default li a {
+  padding: 10px 15px;
+  color: #262626 !important;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.navbar-default li a:hover {
+  border-bottom: #FFA400 3px solid;
+}
+.navbar-default .navbar-brand {
+  color: #2A2A72 !important;
+  font-size: 24px;
+}
+.btn-custom {
+  padding: 10px 36px;
+  background-color: #ff5722;
+  color: #ffffff;
+  font-size: 18px;
+  height: 42px;
+  margin-top: 5px;
+  border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  line-height: 20px;
+}
+.btn-custom:hover {
+  color: #ffffff;
+}
+.btn-donate {
+  width: 140px;
+}
+#btn-block-donate {
+  position: absolute;
+  width: 90%;
+  left: 10px;
+  right: 10px;
+}
+.hero {
+  background-image: url('../images/media/hero.jpg');
+  width: 100%;
+  min-height: 666px;
+  background-size: cover;
+  display: block;
+  background-position: center;
+}
+.dark-well {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.hero-content {
+  position: absolute;
+  top: 40%;
+  margin-left: 30px;
+  margin-right: 75px;
+  color: white;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 55px;
+}
+.hero-content p {
+  font-size: 30px;
+}
+.hero-content .btn-custom {
+  width: 320px;
+}
+@media only screen and (max-width: 768px) {
+  .hero-content h1, .story h1 {
     font-size: 30px;
   }
-  .hero-content .btn-custom{
-    width: 320px;
+  .hero-content p, .thumbnail-content p {
+    font-size: 16px !important;
   }
-
+  .hero-content .btn-custom {
+    width: 220px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 15px;
+  }
+}
 
 /*Story Section*/
 
-.story-content h1{
-  font-size:55px;
+.story {
+  min-width: 500px;
 }
-#storyCarousel {
-  margin-top: 40px;
-  padding: 0px 0px;
+.story h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0px;
 }
-#storyCarousel .item {
-  height: 700px;
+.story .thumb-pic {
+  width: 50%;
 }
-.carousel-caption {
-  font-size: 24px;
-  margin-bottom: 20px;
+.thumbnail-section {
+  background-color: #f9f9f9;
 }
-.carousel-caption h4 {
-  font-size: 32px;
+.thumbnail-content {
+  width: 50%;
+  padding: 20px 20px;
+  margin-top: 10%;
 }
-.carousel-caption p {
-  font-family: PoiretOne;
+.thumbnail-content p {
+  font-size: 30px;
+  font-family: 'Droid Serif', Georgia, serif;
 }
-#Slide1 {
-  background: url("../images/media/image4.png") top no-repeat;
-}
-#Slide2 {
-  background: url("../images/media/image5.jpeg") top no-repeat;
-}
-#Slide3 {
-  background: url("../images/media/image6.jpeg") top no-repeat;
-}
-#Slide4 {
-  background: url("../images/media/image7.png") top no-repeat;
-}
-#Slide5 {
-  background: url("../images/media/image8.jpeg") top no-repeat;
-}
-
