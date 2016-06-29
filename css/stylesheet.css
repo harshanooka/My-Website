@@ -46,7 +46,7 @@ footer {
   font-size: 24px;
 }
 .btn-custom {
-  background-color: #574AE2;
+  background-color: #5e87d4	;
   color: #ffffff;
   font-size: 18px;
   height: 42px;
@@ -121,7 +121,9 @@ footer {
   width: 320px;
 }
 
-
+.story{
+    font-family: Calibri;
+}
 
 .story, .mission, .team {
   min-width: 500px;
@@ -141,7 +143,7 @@ footer {
 }
 .thumbnail-content p {
   font-size: 30px;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: Calibri,'Droid Serif', Georgia, serif;
 }
 .iconDetails {
   float: left;

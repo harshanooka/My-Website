@@ -12,8 +12,8 @@
             when('/home', {
                 templateUrl: 'html/home.html'
             }).
-            when('/story', {
-                templateUrl: 'html/story.html',
+            when('/camdenRealities', {
+                templateUrl: 'html/camdenRealities.html',
 
             }).
             when('/mission', {
@@ -28,9 +28,15 @@
             when('/scholarship', {
                 templateUrl: 'html/scholarship.html'
             }).
+            when('/mentoring', {
+                templateUrl: 'html/mentoring.html'
+            }).    
             when('/team',{
                 templateUrl: 'html/team.html'
-            })
+            }).
+            when('/contact',{
+                templateUrl: 'html/contact.html'
+            })    
                 .otherwise({redirectTo:'/'});
 
         }]);
