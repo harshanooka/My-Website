@@ -116,10 +116,10 @@ footer {
 
 /*Story Section*/
 
-.story, .mission {
+.story, .mission, .team {
   min-width: 500px;
 }
-.story h1, .mission h1 {
+.story h1, .mission h1, .team h1 {
   font-size: 50px;
   text-align: center;
   padding: 10px 0px;
@@ -150,9 +150,10 @@ footer {
   width: 155px;
 }
 .mem-brd {
-  border: solid orange 1px;
+  border: solid azure 1px;
   overflow: auto;
-  margin-top: 2%;
+  margin: 2%;
+
 }
 .det-brd {
   margin-left: 180px;
@@ -164,12 +165,14 @@ footer {
 .paragraph {
   font-size: 14px;
   width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .mem-details {
   margin-right: 1%;
 }
 .mem-content {
-  margin: 1%;
+  margin: 4%;
 }
 .heading {
   margin-bottom: 4%;
@@ -243,3 +246,10 @@ footer .row {
     font-size: 15px;
   }
 }
+
+.team{
+    background: linear-gradient(to bottom, #1e3c72 , #5e87d4);
+    color: white;
+}
+
+
