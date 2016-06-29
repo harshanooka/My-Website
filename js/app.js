@@ -14,7 +14,10 @@
             }).
             when('/camdenRealities', {
                 templateUrl: 'html/camdenRealities.html',
+            }).    
 
+            when('/story', {
+                templateUrl: 'html/story.html',
             }).
             when('/mission', {
                 templateUrl: 'html/mission.html'
@@ -38,6 +41,7 @@
                 templateUrl: 'html/contact.html'
             })    
                 .otherwise({redirectTo:'/'});
+            
 
         }]);
 
