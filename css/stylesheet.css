@@ -121,7 +121,7 @@ footer {
   width: 320px;
 }
 
-/*Story Section*/
+
 
 .story, .mission, .team {
   min-width: 500px;
@@ -253,5 +253,3 @@ footer .row {
     background: linear-gradient(to bottom, #1e3c72 , #5e87d4);
     color: white;
 }
-
-
