@@ -1,6 +1,13 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+background: #1e3c72; /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #1e3c72 , #5e87d4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1e3c72 , #5e87d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
 }
+
 li {
   color: white;
 }
@@ -127,9 +134,6 @@ footer {
 .story .thumb-pic, .mission .thumb-pic {
   width: 50%;
 }
-.thumbnail-section {
-  background-color: #f9f9f9;
-}
 .thumbnail-content {
   width: 50%;
   padding: 20px 20px;
@@ -176,7 +180,6 @@ footer {
 }
 .mission .thumbnail-section{
   margin-top: 30px;
-  background-color: white;
 }
 .mission .mission-statement {
   width: 80%;
@@ -193,7 +196,6 @@ footer {
   margin-top:3%;
 }
 .mission .thumbnail-content ul li{
-  color: black ;
   font-size: 20px;
   margin-bottom: 20px;
 }
