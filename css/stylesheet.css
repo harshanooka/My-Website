@@ -2,7 +2,6 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 li {
-  display: inline-block;
   color: white;
 }
 .header-bottom {
@@ -53,7 +52,6 @@ footer {
 .btn-custom:hover, .btn-custom:focus {
   color: #ffffff;
 }
-
 #btn-block-donate {
   position: absolute;
   width: 90%;
@@ -68,37 +66,31 @@ footer {
   display: block;
   background-position: center;
 }
-
-.hero1{
-    background-image: url('../images/media/image26.png');
-    width: 100%;
-    min-height: 580px;
-    background-size: cover;
-    display: block;
-    background-position: center;
+.hero1 {
+  background-image: url('../images/media/image26.png');
+  width: 100%;
+  min-height: 580px;
+  background-size: cover;
+  display: block;
+  background-position: center;
 }
-
-.hero2{
-    background-image: url('../images/media/image25.png');
-    width: 100%;
-    min-height: 580px;
-    background-size: cover;
-    display: block;
-    background-position: center;
+.hero2 {
+  background-image: url('../images/media/image25.png');
+  width: 100%;
+  min-height: 580px;
+  background-size: cover;
+  display: block;
+  background-position: center;
 }
-
-.carousel-container{
+.carousel-container {
   margin: 0px 0px;
-padding: 0px 0px;
-width: 100%;
+  padding: 0px 0px;
+  width: 100%;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 100%;
-    margin: auto;
+.carousel-inner> .item> img, .carousel-inner> .item> a> img {
+  width: 100%;
+  margin: auto;
 }
-
-
 .dark-well {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
@@ -124,15 +116,15 @@ width: 100%;
 
 /*Story Section*/
 
-.story {
+.story, .mission {
   min-width: 500px;
 }
-.story h1 {
+.story h1, .mission h1 {
   font-size: 50px;
   text-align: center;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
-.story .thumb-pic {
+.story .thumb-pic, .mission .thumb-pic {
   width: 50%;
 }
 .thumbnail-section {
@@ -147,56 +139,96 @@ width: 100%;
   font-size: 30px;
   font-family: 'Droid Serif', Georgia, serif;
 }
-
-
-.iconDetails{
-    float:left;
-    height: 150px;
-    width: 150px;
-    margin-left: 2%;
-
+.iconDetails {
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin-left: 2%;
+}
+.img-board {
+  height: 155px;
+  width: 155px;
+}
+.mem-brd {
+  border: solid orange 1px;
+  overflow: auto;
+  margin-top: 2%;
+}
+.det-brd {
+  margin-left: 180px;
+}
+.main-brd {
+  float: left;
+  margin: 6%;
+}
+.paragraph {
+  font-size: 14px;
+  width: 100%;
+}
+.mem-details {
+  margin-right: 1%;
+}
+.mem-content {
+  margin: 1%;
+}
+.heading {
+  margin-bottom: 4%;
+}
+.mission .thumbnail-section{
+  margin-top: 30px;
+  background-color: white;
+}
+.mission .mission-statement {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.mission .thumbnail ,.mission .thumbnail-content {
+  position: relative;
+  left: 10%;
 }
 
-.img-board{
-    height: 155px;
-    width:  155px;
+.mission .thumbnail-content{
+  margin-top:3%;
+}
+.mission .thumbnail-content ul li{
+  color: black ;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-.mem-brd{
-    border: solid orange 1px;
-    overflow: auto;
-    margin-top: 2%;
+/*CSS for footer*/
 
+footer {
+  background-color: #333;
+  color: white !important;
+  min-height: 100px;
+}
+footer .row {
+  margin-top: 30px;
 }
 
-.det-brd{
-    margin-left: 180px;
+/*CSS for social netoworking links*/
+
+.fa-facebook:hover {
+  background-color: #3B5998;
 }
-
-.main-brd{
-    float: left;
-    margin: 6%;
-
+.fa-twitter:hover {
+  background-color: #00aced;
 }
-
-.paragraph{
-    font-size: 14px;
-    width: 100%;
-
+.faLinks li {
+  display: inline;
+  list-style: none;
+  padding-right: 5px;
 }
-
-.mem-details{
-    margin-right: 1%;
+.faLinks li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 6px 11px;
+  border-radius: 3px;
 }
-
-.mem-content{
-    margin: 1%;
-}
-
-.heading{
-    margin-bottom: 4%;
-}
-
 @media only screen and (max-width: 768px) {
   .hero-content h1, .story h1 {
     font-size: 30px;
