@@ -44,8 +44,8 @@ footer {
   font-size: 24px;
 }
 .btn-custom {
-  padding: 10px 36px;
-  background-color: #ff5722;
+  padding: 5%;
+  background-color: blue;
   color: #ffffff;
   font-size: 18px;
   height: 42px;
@@ -59,9 +59,7 @@ footer {
 .btn-custom:hover {
   color: #ffffff;
 }
-.btn-donate {
-  width: 140px;
-}
+
 #btn-block-donate {
   position: absolute;
   width: 90%;
@@ -71,11 +69,42 @@ footer {
 .hero {
   background-image: url('../images/media/hero.jpg');
   width: 100%;
-  min-height: 666px;
+  min-height: 580px;
   background-size: cover;
   display: block;
   background-position: center;
 }
+
+.hero1{
+    background-image: url('../images/media/image26.png');
+    width: 100%;
+    min-height: 580px;
+    background-size: cover;
+    display: block;
+    background-position: center;
+}
+
+.hero2{
+    background-image: url('../images/media/image25.png');
+    width: 100%;
+    min-height: 580px;
+    background-size: cover;
+    display: block;
+    background-position: center;
+}
+
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+
 .dark-well {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
