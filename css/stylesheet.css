@@ -3,7 +3,6 @@ body {
 }
 li {
   display: inline-block;
-  padding-right: 5px;
   color: white;
 }
 .header-bottom {
@@ -30,33 +29,28 @@ footer {
 }
 .navbar-default li a {
   padding: 10px 15px;
-  color: #262626 !important;
+  color: #262626;
   font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 700;
   margin-top: 5px;
-}
-.navbar-default li a:hover {
-  border-bottom: #FFA400 3px solid;
 }
 .navbar-default .navbar-brand {
   color: #2A2A72 !important;
   font-size: 24px;
 }
 .btn-custom {
-  padding: 5%;
-  background-color: blue;
+  background-color: #574AE2;
   color: #ffffff;
   font-size: 18px;
   height: 42px;
   margin-top: 5px;
   border-radius: 2px;
-  border-radius: 2px;
   font-family: 'Open Sans';
   font-weight: 700;
   line-height: 20px;
 }
-.btn-custom:hover {
+.btn-custom:hover, .btn-custom:focus {
   color: #ffffff;
 }
 
@@ -93,14 +87,14 @@ footer {
     background-position: center;
 }
 
-/*!
- * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+.carousel-container{
+  margin: 0px 0px;
+padding: 0px 0px;
+width: 100%;
+}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
