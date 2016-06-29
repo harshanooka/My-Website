@@ -14,7 +14,6 @@
             }).
             when('/story', {
                 templateUrl: 'html/story.html',
-
             }).
             when('/mission', {
                 templateUrl: 'html/mission.html'
@@ -31,7 +30,7 @@
             when('/team',{
                 templateUrl: 'html/team.html'
             })
-                .otherwise({redirectTo:'/'});
+            .otherwise({redirectTo:'/'});
 
         }]);
 
