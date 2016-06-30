@@ -74,14 +74,7 @@ footer {
     left: 10px;
     right: 10px;
 }
-.hero {
-    background-image: url('../images/media/hero.jpg');
-    width: 100%;
-    min-height: 580px;
-    background-size: cover;
-    display: block;
-    background-position: center;
-}
+
 .hero1 {
     background-image: url('../images/media/image26.png');
     width: 100%;
@@ -107,7 +100,10 @@ footer {
     width: 100%;
     margin: auto;
     max-height: 500px;
+
 }
+
+
 .carousel-caption{
     top:10%;
     max-height: 300px;
