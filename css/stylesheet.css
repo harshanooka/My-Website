@@ -144,7 +144,7 @@ footer {
 .story, .team {
     min-width: 500px;
 }
-.story h1, .mission h1, .team h1 {
+.story h2, .mission h1, .team h1 {
     font-size: 50px;
     text-align: center;
     padding: 10px 0px;
@@ -153,6 +153,66 @@ footer {
     width: 50%;
 }
 
+.story h2{
+    font-size: 30px;
+}
+
+.first-slide img{
+    width: 313px;
+    margin-bottom: 20px;
+    left: 37%;
+    position: relative;
+}
+
+div.first-slide>.col-lg-4{
+    left: -13%;
+    top: 60px;
+}
+
+.second-slide p{
+    left: -146%;
+    position: relative;
+    top: 244px;
+}
+
+.second-slide img{
+    left: 83%;
+    top: -127px;
+    position: relative;
+    width: 313px;
+
+}
+
+.second-section h2 {
+    width: 65%;
+    left: 18%;
+    top: -100px;
+    position: relative;
+}
+
+.second-section img{
+    left: 26%;
+    position: relative;
+    top: -113px;
+    width: 600px;
+    height: 350px;
+}
+
+.third-custom img{
+    width: 40%;
+    left: 20%;
+}
+
+.img-content{
+    float: right;
+    width: 39%;
+    top: -90px;
+    position: relative;
+}
+
+.img-content div{
+    margin-top: 10%;
+}
 .thumbnail-content h2{
     text-align: center;
     font-size: 40px;
