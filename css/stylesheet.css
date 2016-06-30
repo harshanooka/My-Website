@@ -141,7 +141,7 @@ footer {
 .hero-content .btn-custom {
     width: 320px;
 }
-.story, .mission, .team {
+.story, .team {
     min-width: 500px;
 }
 .story h1, .mission h1, .team h1 {
@@ -152,14 +152,8 @@ footer {
 .story .thumb-pic, .mission .thumb-pic {
     width: 50%;
 }
-.thumbnail-content {
-    width: 50%;
-    padding: 20px 20px;
-    margin-top: 10%;
-}
+
 .thumbnail-content h2{
-    position: relative;
-    top: -50px;
     text-align: center;
     font-size: 40px;
     text-decoration: underline;
@@ -208,19 +202,17 @@ footer {
 .mission .thumbnail-section {
     margin-top: 30px;
 }
+.mission .thumbnail-section img {
+    width:100%;
+}
+
 .mission .mission-statement {
     width: 80%;
     text-align: center;
     margin: auto;
     padding-bottom: 20px;
 }
-.mission .thumbnail, .mission .thumbnail-content {
-    position: relative;
-    left: 10%;
-}
-.mission .thumbnail-content {
-    margin-top: 3%;
-}
+
 .mission .thumbnail-content ul li {
     font-size: 20px;
     margin-bottom: 20px;
