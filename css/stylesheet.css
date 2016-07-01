@@ -276,6 +276,7 @@ div.first-slide>.col-lg-4{
 .mission .thumbnail-content ul li {
     font-size: 20px;
     margin-bottom: 20px;
+    list-style: none;
 }
 .mission h1, .mission h2{
     color:#FFFD82;
