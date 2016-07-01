@@ -37,6 +37,8 @@ footer {
 .navbar-default {
   border: none !important;
   box-shadow: none !important;
+  border-radius: 0px;
+
 }
 .navbar-default li a {
   padding: 10px 15px;
@@ -69,9 +71,7 @@ footer {
   left: 10px;
   right: 10px;
 }
-
-#home{
-}
+#home {}
 .hero1 {
   background-image: url('../images/media/image26.png');
   width: 100%;
@@ -105,7 +105,7 @@ footer {
 .carousel-caption h3 {
   font-size: 38px;
   font-family: Calibri, Arial, sans-serif;
-  color:  #6666ff;
+  color: #6666ff;
 }
 .carousel-caption p {
   margin-top: 15px;
@@ -113,14 +113,17 @@ footer {
   font-family: Calibri, Helvetica, Arial, sans-serif;
 }
 .dark-well {
-
   padding-bottom: 10px;
 }
 .story, .team {
   min-width: 500px;
 }
+.story{
+  font-size: 16px;
+  overflow: hidden;
+}
 .story h2, .mission h1, .team h1 {
-  font-size: 50px;
+  font-size: 55px;
   text-align: center;
   padding: 10px 0px;
 }
@@ -131,36 +134,49 @@ footer {
   font-size: 30px;
 }
 .first-slide img {
-  width: 313px;
-  margin-bottom: 20px;
-  left: 37%;
+  display: inline-block;
+  width: 27%;
   position: relative;
+  left: 22%;
 }
-div.first-slide>.col-lg-4 {
-  left: -13%;
-  top: 60px;
+.first-slide p {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  left: 24%;
+  top: -40px;
 }
 .second-slide p {
-  left: -146%;
-  position: relative;
-  top: 244px;
+  display: inline-block;
+    width: 30%;
+    left: 22%;
+    top: -66px;
+    position: relative;
 }
 .second-slide img {
-  left: 83%;
-  top: -127px;
+  display: inline-block;
+position: relative;
+top: -120px;
+left: 22%;
+width: 27%;
+}
+.second-section, .third-section{
   position: relative;
-  width: 313px;
+  top:-100px;
 }
 .second-section h2 {
   width: 42%;
   left: 18%;
   position: relative;
 }
-.second-section img, .third-section img  {
+.second-section img, .third-section img {
   left: 26%;
   position: relative;
   width: 600px;
   height: 350px;
+}
+.second-section .img-content {
+  width: 30%;
 }
 .third-section h2 {
   width: 50%;
@@ -176,6 +192,10 @@ div.first-slide>.col-lg-4 {
   left: 20%;
   display: inline-block;
 }
+.third-section img{
+  width: 47% ;
+}
+
 .img-content {
   display: inline-block;
   width: 35%;
@@ -186,7 +206,7 @@ div.first-slide>.col-lg-4 {
 }
 .thumbnail-content h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   text-decoration: underline;
 }
 .thumbnail-content p {
@@ -238,18 +258,23 @@ div.first-slide>.col-lg-4 {
 }
 .mission .mission-statement {
   width: 80%;
-  text-align: center;
   margin: auto;
   padding-bottom: 20px;
 }
+.mission .thumbnail-content{
+margin-top: 45px;
+}
 .mission .thumbnail-content ul li {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
   list-style: none;
 }
 .mission h1, .mission h2 {
   color: #FFFD82;
   text-decoration: none;
+}
+.mission h2{
+  margin-top: 50px;
 }
 .mentoring .pic-1 {
   display: inline-block;
@@ -336,7 +361,6 @@ footer h6 {
   color: #f7ecb5;
   font-family: Calibri;
 }
-
-.footer-text{
-    text-align: center;
+.footer-text {
+  text-align: center;
 }
