@@ -1,11 +1,6 @@
 body {
   font-family: Calibri, Arial, sans-serif;
   background: #1e3c72;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1e3c72, #5e87d4);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1e3c72, #5e87d4);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 .block-logo {
@@ -74,6 +69,9 @@ footer {
   left: 10px;
   right: 10px;
 }
+
+#home{
+}
 .hero1 {
   background-image: url('../images/media/image26.png');
   width: 100%;
@@ -105,18 +103,17 @@ footer {
   max-height: 300px;
 }
 .carousel-caption h3 {
-  font-size: 44px;
+  font-size: 38px;
   font-family: Calibri, Arial, sans-serif;
-  color: yellowgreen;
+  color:  #6666ff;
 }
 .carousel-caption p {
-  margin-top: 20px;
-  font-size: 25px;
+  margin-top: 15px;
+  font-size: 22px;
   font-family: Calibri, Helvetica, Arial, sans-serif;
 }
 .dark-well {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
+
   padding-bottom: 10px;
 }
 
@@ -337,4 +334,8 @@ footer h6{
   font-size: 20px;
   color: #f7ecb5;
   font-family: Calibri;
+}
+
+.footer-text{
+    text-align: center;
 }
