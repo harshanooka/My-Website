@@ -119,7 +119,6 @@ footer {
   border-radius: 5px;
   padding-bottom: 10px;
 }
-
 .story, .team {
   min-width: 500px;
 }
@@ -156,27 +155,30 @@ div.first-slide>.col-lg-4 {
   width: 313px;
 }
 .second-section h2 {
-  width: 65%;
+  width: 42%;
   left: 18%;
-  top: -100px;
   position: relative;
 }
-.second-section img {
+.second-section img, .third-section img  {
   left: 26%;
   position: relative;
-  top: -113px;
   width: 600px;
   height: 350px;
+}
+.third-section h2 {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+.third-section p {
+  position: relative;
+  text-align: center;
 }
 .third-custom img {
   width: 40%;
   left: 20%;
-    display: inline-block;
-
+  display: inline-block;
 }
-
-
-
 .img-content {
   display: inline-block;
   width: 35%;
@@ -192,7 +194,7 @@ div.first-slide>.col-lg-4 {
 }
 .thumbnail-content p {
   font-size: 30px;
-  font-family: Calibri,'Droid Serif', Georgia, serif;
+  font-family: Calibri, 'Droid Serif', Georgia, serif;
 }
 .iconDetails {
   float: left;
@@ -271,11 +273,11 @@ div.first-slide>.col-lg-4 {
   display: inline-block;
   width: 46%;
 }
-.mentoring .pic-4{
+.mentoring .pic-4 {
   display: inline-block;
 }
-.mentoring span{
-  font-size:30px;
+.mentoring span {
+  font-size: 30px;
 }
 
 /*CSS for footer*/
@@ -285,11 +287,10 @@ footer {
   color: white !important;
   height: 50%;
 }
-
-footer h6{
-    font-size: 9px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+footer h6 {
+  font-size: 9px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 /*CSS for social netoworking links*/
@@ -313,13 +314,13 @@ footer h6{
   border-radius: 3px;
 }
 @media only screen and (max-width: 768px) {
-   .story h1 {
+  .story h1 {
     font-size: 30px;
   }
- .thumbnail-content p {
+  .thumbnail-content p {
     font-size: 16px !important;
   }
-   .btn-custom {
+  .btn-custom {
     width: 220px;
   }
   .navbar-default .navbar-brand {
