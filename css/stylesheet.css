@@ -328,3 +328,12 @@ footer {
     background: linear-gradient(to bottom, #1e3c72, #5e87d4);
     color: white;
 }
+
+#container{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/process.jpg") no-repeat center fixed;
+    min-height: 850px;
+    background-size: cover;
+    font-size: 20px;
+    color: #f7ecb5;
+    font-family: Calibri;
+}
