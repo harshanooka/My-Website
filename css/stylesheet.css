@@ -354,13 +354,24 @@ footer h6 {
   color: white;
 }
 #container {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/process.jpg") no-repeat center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/process.jpg") no-repeat;
   min-height: 850px;
   background-size: cover;
   font-size: 20px;
-  color: #f7ecb5;
+  color: antiquewhite;
   font-family: Calibri;
 }
 .footer-text {
   text-align: center;
+}
+
+.section-logo{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#container span{
+    font-size: 22px;
 }
