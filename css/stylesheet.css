@@ -9,13 +9,6 @@ body {
   text-align: center;
   margin-top: 7px;
 }
-.block-logo h1 {
-  font-size: 60px;
-  margin-top: 10px;
-}
-.block-logo h4 {
-  font-size: 17px;
-}
 .header-bottom {
   background-color: transparent;
 }
@@ -38,7 +31,6 @@ footer {
   border: none !important;
   box-shadow: none !important;
   border-radius: 0px;
-
 }
 .navbar-default li a {
   padding: 10px 15px;
@@ -88,6 +80,9 @@ footer {
   display: block;
   background-position: center;
 }
+.carousel-indicators {
+  bottom: 100px;
+}
 .carousel-container {
   margin: 0px 0px;
   padding: 0px 0px;
@@ -103,13 +98,11 @@ footer {
   max-height: 300px;
 }
 .carousel-caption h3 {
-  font-size: 38px;
   font-family: Calibri, Arial, sans-serif;
   color: #6666ff;
 }
 .carousel-caption p {
   margin-top: 15px;
-  font-size: 22px;
   font-family: Calibri, Helvetica, Arial, sans-serif;
 }
 .dark-well {
@@ -118,70 +111,62 @@ footer {
 .story, .team {
   min-width: 500px;
 }
-.story{
+.story {
   font-size: 16px;
   overflow: hidden;
 }
+.story .row,.mission{
+  min-width: 600px;
+}
 .story h2, .mission h1, .team h1 {
-  font-size: 55px;
   text-align: center;
   padding: 10px 0px;
+  color: #FFFD82;
 }
 .story .thumb-pic, .mission .thumb-pic {
   width: 50%;
 }
-.story h2 {
-  font-size: 30px;
+.first-slide img, .second-slide p, .second-section h2, .third-custom img {
+  left: 9%;
 }
-.first-slide img {
+.first-slide img, .first-slide p, .second-slide img, .second-slide p, .second-section h2, .second-section .img-content, .img-content, .second-section img {
+  width: 40%;
   display: inline-block;
-  width: 27%;
   position: relative;
-  left: 22%;
+}
+.first-slide {
+  padding-top: 30px;
 }
 .first-slide p {
-  display: inline-block;
-  width: 30%;
-  position: relative;
-  left: 24%;
-  top: -40px;
+  left: 15%;
+  top: -30px;
 }
 .second-slide p {
-  display: inline-block;
-    width: 30%;
-    left: 22%;
-    top: -66px;
-    position: relative;
+  top: -60px;
 }
 .second-slide img {
-  display: inline-block;
-position: relative;
-top: -120px;
-left: 22%;
-width: 27%;
+  top: -120px;
+  left: 15%;
 }
-.second-section, .third-section{
+.second-section, .third-section {
   position: relative;
-  top:-100px;
+  top: -100px;
+  clear: both;
 }
 .second-section h2 {
-  width: 42%;
-  left: 18%;
-  position: relative;
+  display: block;
+  color: #FFFD82;
 }
-.second-section img, .third-section img {
-  left: 26%;
+.third-section img {
   position: relative;
-  width: 600px;
-  height: 350px;
-}
-.second-section .img-content {
-  width: 30%;
+  width: 64%;
+  margin: auto;
 }
 .third-section h2 {
-  width: 50%;
-  position: relative;
-  left: 25%;
+  width: 64%;
+  color: white;
+  margin: auto;
+  padding-top: 50px;
 }
 .third-section p {
   position: relative;
@@ -189,21 +174,14 @@ width: 27%;
 }
 .third-custom img {
   width: 40%;
-  left: 20%;
-  display: inline-block;
+  float: left;
 }
-.third-section img{
-  width: 47% ;
+.img-content {
+  margin-left: 15%;
+  top: 40px;
+  float: left;
 }
 
-.img-content {
-  display: inline-block;
-  width: 35%;
-  margin-left: 22%;
-}
-.img-content div {
-  margin-top: 9%;
-}
 .thumbnail-content h2 {
   text-align: center;
   font-size: 45px;
@@ -254,26 +232,28 @@ width: 27%;
   margin-top: 30px;
 }
 .mission .thumbnail-section img {
-  width: 100%;
+  width: 33%;
+  float: left;
+}
+.mission .thumbnail-section h2 {
+  width: 28%;
+  float: left;
+  margin-top: 10%;
+  color: #FFFD82;
+  text-align: center;
+}
+.mission .thumbnail-section p {
+  width: 33%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 4%;
 }
 .mission .mission-statement {
-  width: 80%;
+  width: 95%;
   margin: auto;
   padding-bottom: 20px;
 }
-.mission .thumbnail-content{
-margin-top: 45px;
-}
-.mission .thumbnail-content ul li {
-  font-size: 16px;
-  margin-bottom: 20px;
-  list-style: none;
-}
-.mission h1, .mission h2 {
-  color: #FFFD82;
-  text-decoration: none;
-}
-.mission h2{
+.mission h2 {
   margin-top: 50px;
 }
 .mentoring .pic-1 {
@@ -335,20 +315,6 @@ footer h6 {
   padding: 6px 11px;
   border-radius: 3px;
 }
-@media only screen and (max-width: 768px) {
-  .story h1 {
-    font-size: 30px;
-  }
-  .thumbnail-content p {
-    font-size: 16px !important;
-  }
-  .btn-custom {
-    width: 220px;
-  }
-  .navbar-default .navbar-brand {
-    font-size: 15px;
-  }
-}
 .team {
   background: linear-gradient(to bottom, #1e3c72, #5e87d4);
   color: white;
@@ -363,15 +329,74 @@ footer h6 {
 }
 .footer-text {
   text-align: center;
+  min-height: 50px;
+}
+.section-logo {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 3px;
+}
+#container span {
+  font-size: 22px;
 }
 
-.section-logo{
-    color: white;
-    background-color: black;
-    text-align: center;
-    margin-top: 3px;
+/* Extra small devices (phones, up to 480px) */
+
+@media screen and (max-width: 767px) {
+  .page-heading {
+    font-size: 28px;
+  }
+  .page-sub-heading {
+    font-size: 22px
+  }
+  .para-content-xlg {
+    font-size: 17px;
+  }
+  .para-content-lg {
+    font-size: 16px;
+  }
+  .para-content-sm {
+    font-size: 14px;
+  }
 }
 
-#container span{
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-heading {
+    font-size: 40px;
+  }
+  .page-sub-heading {
+    font-size: 32px
+  }
+  .para-content-xlg {
     font-size: 22px;
+  }
+  .para-content-lg {
+    font-size: 20px;
+  }
+  .para-content-sm {
+    font-size: 16px;
+  }
+}
+
+/* tablets/desktops and up ----------- */
+
+@media (min-width: 992px) {
+  .page-heading {
+    font-size: 55px;
+  }
+  .page-sub-heading {
+    font-size: 42px;
+  }
+  .para-content-xlg {
+    font-size: 32px;
+  }
+  .para-content-lg {
+    font-size: 24px;
+  }
+  .para-content-sm {
+    font-size: 20px;
+  }
 }
