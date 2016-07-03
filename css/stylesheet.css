@@ -9,6 +9,8 @@ body {
   background-color: #1e3c72;
   text-align: center;
   margin-top: 7px;
+  color: #FFFD82;
+
 }
 .header-bottom {
   background-color: transparent;
@@ -216,9 +218,16 @@ width: 50%;
 .det-brd h2,.mem-details h5{
   color: #FFFD82;
 }
-.paragraph {
-  text-align: justify;
-  text-justify: inter-word;
+
+.paragraph-top{
+  float: right;
+    width: 50%;
+    text-align: justify;
+
+}
+.paragraph-bottom{
+  float: left;
+width: 100%;
 }
 /*.mem-details {
   margin-right: 1%;
@@ -350,9 +359,10 @@ footer h6 {
 }
 .section-logo {
   color: white;
-  background-color: black;
+  background-color: #1e3c72;;
   text-align: center;
   margin-top: 3px;
+  color: #FFFD82;
 }
 .process b{
  color: #FFFD82;
@@ -405,7 +415,7 @@ footer h6 {
 
 /* tablets/desktops and up ----------- */
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and  (max-width: 1400px) {
   .page-heading {
     font-size: 55px;
   }
@@ -420,5 +430,23 @@ footer h6 {
   }
   .para-content-sm {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .page-heading {
+    font-size: 60px;
+  }
+  .page-sub-heading {
+    font-size: 46px;
+  }
+  .para-content-xlg {
+    font-size: 36px;
+  }
+  .para-content-lg {
+    font-size: 28px;
+  }
+  .para-content-sm {
+    font-size: 24px;
   }
 }
