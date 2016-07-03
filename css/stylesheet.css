@@ -290,9 +290,11 @@ footer {
 .mentoring span {
   padding: 20px;
       margin-left: 4%;}
-
+.contact .fa{
+  color:yellow;
+}
 .contact h1{
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 .contact h2{
   padding: 30px;
@@ -304,6 +306,13 @@ padding-top: 50px;
 }
 .contact a{
   color: white;
+}
+
+.contact span{
+  padding: 20px 20px;
+  width: 50%;
+  margin: auto;
+  display: block
 }
 
 .contact a:hover{
