@@ -127,7 +127,7 @@ footer {
   width: 50%;
 }
 .first-slide img, .second-slide p, .second-section h2, .third-custom img {
-  left: 9%;
+  left: 6%;
 }
 .first-slide img, .first-slide p, .second-slide img, .second-slide p, .second-section h2, .second-section .img-content, .img-content, .second-section img {
   width: 40%;
@@ -156,6 +156,8 @@ footer {
 .second-section h2 {
   display: block;
   color: #FFFD82;
+  width: 44%;
+left: 4%;
 }
 .third-section img {
   position: relative;
