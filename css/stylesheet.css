@@ -190,38 +190,42 @@ left: 4%;
 }
 .iconDetails {
   float: left;
-  height: 150px;
-  width: 150px;
-  margin-left: 2%;
+  width:40%;
+  margin: 2%;
 }
 .img-board {
   height: 155px;
   width: 155px;
 }
-.mem-brd {
-  border: solid azure 1px;
-  overflow: auto;
+.mem-brd{
   margin: 2%;
+border: solid azure 1px;
 }
-.det-brd {
-  margin-left: 180px;
+.mem-content{
+  margin:2%;
 }
-.main-brd {
+.main-brd{
   float: left;
-  margin: 6%;
+    width: 46%;
+    margin: 5px 5px;
+}
+.det-brd{
+  float: left;
+width: 50%;
+}
+.det-brd h2,.mem-details h5{
+  color: #FFFD82;
 }
 .paragraph {
-  font-size: 20px;
-  width: 100%;
   text-align: justify;
   text-justify: inter-word;
 }
-.mem-details {
+/*.mem-details {
   margin-right: 1%;
 }
 .mem-content {
   margin: 4%;
-}
+}*/
 .heading {
   margin-bottom: 4%;
 }
@@ -260,9 +264,10 @@ left: 4%;
 .mentoring p {
   display: inline-block;
   width: 40%;
-  font-size: 20px;
   left: 10px;
   padding: 10px 10px;
+  position: relative;
+top: 42px;
 }
 .mentoring .pic-2 {
   display: inline-block;
@@ -274,10 +279,12 @@ left: 4%;
 }
 .mentoring .pic-4 {
   display: inline-block;
+  width: 19%;
 }
-.mentoring span {
-  font-size: 30px;
+.mentoring span{
+  padding: 20px;
 }
+
 
 /*CSS for footer*/
 
