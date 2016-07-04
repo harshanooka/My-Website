@@ -34,33 +34,35 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
 
-                <li id="home" class="push-top">
+                <li id="home" >
                     <a href="#/home" >Home</a>
                 </li>
-                <li id="camdenRealities" class="push-top">
+                <li id="camdenRealities" >
                     <a href="#/camdenRealities">Camden <br>Realities</a>
                 </li>
-                <li id="mission" class="push-top">
+                <li id="mission" >
                     <a href="#/mission">Mission</a>
                 </li>
-                <li id="process" class="push-top">
+                <li id="process" >
                     <a href="#/process">The Process</a>
                 </li>
-                <li id="programs" class="push-top">
+                <li id="programs" >
                     <a href="#/programs">Programs</a>
                 </li>
-                <li id="scholarships" class="push-top">
+                <li id="scholarships" >
                     <a href="#/educationalSupport">EDUCATIONAL<br> SUPPORT</a>
                 </li>
-                <li id="Mentoring" class="push-top">
+                <li id="Mentoring" >
                     <a href="#/mentoring">Mentoring</a>
                 </li>
-                <li id="team" class="push-top">
+                <li id="team" >
                     <a href="#/team">Know our Team</a>
                 </li>
-                <li id="contact" class="push-top">
+                <li id="contact" >
                     <a href="#/contact">Contact Us</a>
                 </li>
+
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -90,6 +92,11 @@
 <script src="js/storyImageController.js"></script>
 <script src="js/carouselDir.js"></script>
 
+<script>
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+</script>
 
 
 </body>
