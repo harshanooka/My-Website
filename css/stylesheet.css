@@ -28,6 +28,7 @@ footer {
 }
 .navbar {
   margin-bottom: 0px;
+  min-height: 65px;
 }
 .navbar-default {
   border: none !important;
@@ -136,6 +137,9 @@ footer {
 }
 .second-slide p {
   top: -60px;
+}
+.support .second-slide p{
+  top:-35px;
 }
 .second-slide img {
   top: -120px;
