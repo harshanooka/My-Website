@@ -107,16 +107,16 @@ footer {
 .dark-well {
   padding-bottom: 10px;
 }
-.story {
+.story, .support {
   font-size: 16px;
   overflow: hidden;
 }
-.story h2, .mission h1, .team h1, .mentoring h1 , .contact h1 {
+.story h2, .mission h1, .team h1, .mentoring h1 , .contact h1, .support h1{
   text-align: center;
   padding: 10px 0px;
   color: #FFFD82;
 }
-.story .thumb-pic, .mission .thumb-pic {
+ .mission .thumb-pic {
   width: 50%;
 }
 .first-slide img, .second-slide p, .second-section h2, .third-custom img {
@@ -357,7 +357,7 @@ footer h6 {
 }
 .process {
   /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/process.jpg") no-repeat;*/
-  min-height: 850px;
+  min-height: 100%;
   /*background-size: cover;*/
   font-size: 20px;
   color: antiquewhite;

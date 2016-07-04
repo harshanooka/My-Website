@@ -28,8 +28,8 @@
             when('/programs', {
                 templateUrl: 'html/programs.html'
             }).
-            when('/scholarship', {
-                templateUrl: 'html/scholarship.html'
+            when('/educationalSupport', {
+                templateUrl: 'html/educationalSupport.html'
             }).
             when('/mentoring', {
                 templateUrl: 'html/mentoring.html'
