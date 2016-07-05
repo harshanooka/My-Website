@@ -2,9 +2,9 @@ body {
   font-family: Calibri, Arial, sans-serif !important;
   color: white;
   min-width: 600px;
-  background: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  /*background: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
   background: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-  background: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);*/
   background-color: #1e3c72;
 
 }
@@ -12,7 +12,6 @@ body {
   color: white;
   background-color: #1e3c72;
   text-align: center;
-  color: #FFFD82;
 }
 .header-bottom {
   background-color: transparent;
@@ -85,7 +84,7 @@ footer {
   width: 100%;
 }
 .carousel-inner> .item> img, .carousel-inner> .item> a> img {
-  width: 100%;
+  width: 120%;
   margin: auto;
   max-height: 500px;
 }
@@ -481,6 +480,10 @@ footer h6 {
 /* Extra small devices (phones, up to 480px) */
 
 @media screen and (max-width: 767px) {
+  .main-title{
+      font-size: 40px;
+  }
+
   .page-heading {
     font-size: 28px;
   }
@@ -504,6 +507,10 @@ footer h6 {
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .main-title{
+        font-size: 52px;
+  }
+
   .page-heading {
     font-size: 40px;
   }
@@ -524,6 +531,9 @@ footer h6 {
 /* tablets/desktops and up ----------- */
 
 @media (min-width: 992px) and (max-width: 1400px) {
+   .main-title{
+        font-size: 65px;
+   }
   .page-heading {
     font-size: 55px;
   }
@@ -531,7 +541,7 @@ footer h6 {
     font-size: 42px;
   }
   .para-content-xlg {
-    font-size: 32px;
+    font-size: 28px;
   }
   .para-content-lg {
     font-size: 24px;
@@ -541,6 +551,10 @@ footer h6 {
   }
 }
 @media (min-width: 1400px) {
+    .main-title{
+        font-size: 80px;
+    }
+
   .page-heading {
     font-size: 60px;
   }
@@ -604,4 +618,8 @@ footer h6 {
   .main-tab {
     display: inline;
   }
+}
+
+.custom-content{
+    padding-bottom: 4%;
 }
