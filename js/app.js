@@ -3,7 +3,7 @@
  */
 (function () {
     'use strict';
-    var myApp = angular.module('angularApp', ['ngRoute','ngAnimate','ui.bootstrap'])
+    var myApp = angular.module('angularApp', ['ngRoute'])
         .config(['$routeProvider', function($routeProvider) {
             $routeProvider.
             when('/', {
@@ -14,7 +14,7 @@
             }).
             when('/camdenRealities', {
                 templateUrl: 'html/camdenRealities.html',
-            }).    
+            }).
 
             when('/story', {
                 templateUrl: 'html/story.html',
@@ -33,15 +33,15 @@
             }).
             when('/mentoring', {
                 templateUrl: 'html/mentoring.html'
-            }).    
+            }).
             when('/team',{
                 templateUrl: 'html/team.html'
             }).
             when('/contact',{
                 templateUrl: 'html/contact.html'
-            })    
+            })
                 .otherwise({redirectTo:'/'});
-            
+
 
         }]);
 
