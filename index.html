@@ -78,7 +78,10 @@
 
       <div class="modal-content">
         <div class="modal-body">
-          <video id="video-id" width="100%" height="100%" src="./introVideo.mp4" controls>
+          <video id="video-id" width="100%" height="100%" src="./introVideo.mp4" controls poster="Poster.PNG">
+            Sorry, your browser doesn't support embedded videos,
+            but don't worry, you can <a href="./introVideo.mp4">download it</a>
+            and watch it with your favorite video player!
           </video>
         </div>
 
@@ -125,7 +128,6 @@
     });
 
     $(".btn-video").click(function(){
-      console.log("Hello");
       $("#video-id").get(0).play();
     })
   </script>
